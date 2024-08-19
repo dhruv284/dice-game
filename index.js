@@ -80,7 +80,7 @@ function image_generator(){
         document.querySelector("h1").textContent= "It's a Draw"
 
     }
-    else{
+    if(n<n2){
         document.querySelector("h1").textContent=name2+ " Wins";
 
     }
